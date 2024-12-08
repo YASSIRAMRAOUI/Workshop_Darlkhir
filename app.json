@@ -4,11 +4,11 @@
     "slug": "Formation2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/darlkhir.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/darlkhir.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/darlkhir.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yassir_amraoui.Formation2"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/darlkhir.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e96b934-951b-43f7-909f-504e6bd56a7b"
+      }
     }
   }
 }
